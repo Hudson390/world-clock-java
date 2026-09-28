@@ -1,0 +1,9 @@
+# Java
+bin/
+*.class
+
+# VS Code
+.vscode/
+
+# Outros arquivos
+.DS_Store
