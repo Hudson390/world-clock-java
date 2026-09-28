@@ -44,5 +44,10 @@ public non-sealed class USClock extends Clock{
         this.periodIndicator = "AM";
     }
 
+    @Override 
+    public String getTime(){
+        return super.getTime() + " " + this.periodIndicator;
+    }
+
     
 }
