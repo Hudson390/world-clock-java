@@ -1,10 +1,10 @@
-public abstract class Clock {
+public sealed abstract class Clock permits BRLClock, USClock{
 
-    private int hour;
+    protected int hour;
 
-    private int minute;
+    protected int minute;
     
-    private int second;
+    protected int second;
 
     public int getHour() {
         return hour;
